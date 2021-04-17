@@ -6,9 +6,9 @@
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: url('img/01.jpg');
+    background-image: url('img/map.jpg');
     background-size: cover;
-    background-position: top center;
+    background-position: center center;
 }
 
 .app{
@@ -54,19 +54,29 @@ main{
     box-shadow: 10px 5px 5px #000;
 }
 
-.info .country{
+.country{
     color: #fff;
-    font-size: 32px;
-    font-weight: 500;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 14px;
 }
 
-.info .nativename{
+.nativename{
     color: rgb(189, 189, 189);
-    font-size: 14px;
+    font-size: 20px;
     font-style: italic;
+    margin-bottom: 4px;
 }
 
-.info .capital{
+.capital{
     color: #fff;
-    font-size: 24px;
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.population, .region, .subregion{
+    color: #fff;
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 400;
 }

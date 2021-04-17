@@ -33,8 +33,13 @@ function displayCountry(element) {
  let flag = document.querySelector('.flag');
  flag.innerHTML = `<img src="${element[0].flag}">`
 
- let population = document.querySelector('.population');
- population.innerHTML = `Population ${element[0].population}`
+ let region = document.querySelector('.region');
+ region.innerHTML = `Region: ${element[0].region}`
 
+ let subregion = document.querySelector('.subregion');
+ subregion.innerHTML = `Subregion: ${element[0].subregion}`
+
+ let population = document.querySelector('.population');
+ population.innerHTML = `Population: ${element[0].population}`
 
 }
